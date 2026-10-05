@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Concentrate</string>
+    <string name="accessibility_service_desc">Enforces distraction-free focus sessions by intercepting unapproved applications during active lockdown.</string>
+    <string name="vault_mode_title">THE VAULT</string>
+    <string name="sniper_mode_title">THE SNIPER</string>
+    <string name="nta_exam_title">NTA EXAM MODE</string>
+    <string name="kill_switch_hint">Developer Emergency Abort</string>
+    <string name="channel_name">Warden Lockdown Service</string>
+    <string name="channel_description">Active surveillance and focus session enforcement.</string>
+</resources>

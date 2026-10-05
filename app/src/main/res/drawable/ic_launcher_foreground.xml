@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield / Vault Ring -->
+    <path
+        android:strokeColor="#FF9F0A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 A30,30 0 1,1 53.99,24" />
+    <!-- Inner Crosshair / Focus Core -->
+    <path
+        android:fillColor="#FF9F0A"
+        android:pathData="M54,42 A12,12 0 1,0 54,66 A12,12 0 1,0 54,42 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,14 L54,20 M54,88 L54,94 M14,54 L20,54 M88,54 L94,54" />
+</vector>
