@@ -1,0 +1,4 @@
+# Ensure gradlew always keeps UNIX line endings (LF) on Linux CI/CD runners
+gradlew text eol=lf
+*.bat text eol=crlf
+*.sh text eol=lf
