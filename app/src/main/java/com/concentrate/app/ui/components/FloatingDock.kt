@@ -66,7 +66,7 @@ fun FloatingDock(
             DockItem(
                 title = "NTA EXAM",
                 isSelected = currentMode == SessionMode.NTA_EXAM,
-                activeColor = Color(0xFFBF5AF2),
+                activeColor = AccentPurple,
                 onClick = { onModeSelected(SessionMode.NTA_EXAM) }
             )
         }

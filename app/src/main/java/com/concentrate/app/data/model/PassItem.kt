@@ -7,8 +7,8 @@ data class PassTemplate(
     val durationMinutes: Int,
     val basePointCost: Int,
     val diamondCost: Int,
-    val isEmergencyAbort: Boolean = false,
-    val description: String
+    val description: String,
+    val isEmergencyAbort: Boolean = false
 )
 
 data class ActivePass(

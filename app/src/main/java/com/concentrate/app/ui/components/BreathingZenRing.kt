@@ -104,7 +104,7 @@ fun BreathingZenRing(
 
             // 2. Track Background
             drawArc(
-                color = Color(0xFF1E1E26),
+                color = SurfaceElevated,
                 startAngle = -90f,
                 sweepAngle = 360f,
                 useCenter = false,
@@ -133,7 +133,7 @@ fun BreathingZenRing(
         ) {
             Text(
                 text = "${subject.iconSymbol} ${subject.displayName.uppercase()}",
-                color = Color(subject.hexColor),
+                color = subject.color,
                 fontSize = 11.sp,
                 fontWeight = FontWeight.Bold,
                 letterSpacing = 2.sp

@@ -323,7 +323,7 @@ fun DashboardScreen(
         val primaryColor = when (currentMode) {
             SessionMode.VAULT -> AccentAmber
             SessionMode.SNIPER -> AccentCyan
-            SessionMode.NTA_EXAM -> Color(0xFFBF5AF2)
+            SessionMode.NTA_EXAM -> AccentPurple
         }
 
         Button(

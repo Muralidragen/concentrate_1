@@ -1,28 +1,34 @@
 package com.concentrate.app.data.model
 
+import androidx.compose.ui.graphics.Color
+import com.concentrate.app.ui.theme.AccentAmber
+import com.concentrate.app.ui.theme.AccentCyan
+import com.concentrate.app.ui.theme.AccentEmerald
+import com.concentrate.app.ui.theme.AccentPurple
+
 enum class JeeSubject(
     val displayName: String,
-    val hexColor: Long,
+    val color: Color,
     val iconSymbol: String
 ) {
     PHYSICS(
         displayName = "Physics",
-        hexColor = 0xFF64D2FF, // Cyan
+        color = AccentCyan,
         iconSymbol = "⚡"
     ),
     CHEMISTRY(
         displayName = "Chemistry",
-        hexColor = 0xFFFF9F0A, // Amber
+        color = AccentAmber,
         iconSymbol = "⚗️"
     ),
     MATHEMATICS(
         displayName = "Mathematics",
-        hexColor = 0xFF30D158, // Emerald
+        color = AccentEmerald,
         iconSymbol = "📐"
     ),
     MOCK_TEST(
         displayName = "Mock Test",
-        hexColor = 0xFFBF5AF2, // Purple
+        color = AccentPurple,
         iconSymbol = "🎯"
     )
 }

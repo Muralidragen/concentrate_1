@@ -128,7 +128,7 @@ fun FormulaVaultScreen() {
                 Column {
                     Text(
                         text = item.title,
-                        color = Color(selectedSubject.hexColor),
+                        color = selectedSubject.color,
                         fontSize = 14.sp,
                         fontWeight = FontWeight.Bold
                     )

@@ -39,7 +39,7 @@ fun SubjectBadgeSelector(
     ) {
         JeeSubject.values().forEach { subject ->
             val isSelected = selectedSubject == subject
-            val subjectColor = Color(subject.hexColor)
+            val subjectColor = subject.color
 
             Box(
                 modifier = Modifier
